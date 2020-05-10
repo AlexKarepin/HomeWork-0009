@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#C4F38E"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputMoney"
+        android:layout_width="215dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputMoney"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputInfo"
+        android:layout_width="215dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/paymentInfo" />
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+    <CheckBox
+        android:id="@+id/bankCardChkBx"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/withCard"/>
+    <CheckBox
+        android:id="@+id/mobilePhoneChkBx"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/withPhone"/>
+    <CheckBox
+        android:id="@+id/cashAddressChkBx"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cash"/>
+</LinearLayout>

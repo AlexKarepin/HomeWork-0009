@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HomeWork-009</string>
+    <string name="saveBut">Сохранить</string>
+    <string name="writeNote">напиши заметку</string>
+    <string name="taskStartDay">Дата-время старта задачи:</string>
+    <string name="taskFinishDay">Дата-время окончания задачи:</string>
+    <string name="ok">OK</string>
+    <string name="inputMoney">Ввод денег</string>
+    <string name="paymentInfo">Информация об оплате</string>
+    <string name="withCard">С банковской карты</string>
+    <string name="withPhone">С мобильного телефона</string>
+    <string name="cash">Наличными по адресу</string>
+    <string name="addAddress">Выберите адрес:</string>
+    <string name="showAddress">Показать адрес</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+</resources>

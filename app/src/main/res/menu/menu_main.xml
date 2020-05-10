@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="Записная книжка"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tasks"
+        android:orderInCategory="100"
+        android:title="Учет задач"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_address"
+        android:orderInCategory="100"
+        android:title="Выбрать адрес"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_pay"
+        android:orderInCategory="100"
+        android:title="Оплата"
+        app:showAsAction="never" />
+
+</menu>

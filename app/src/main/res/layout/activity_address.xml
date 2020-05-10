@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4F38E"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewAddAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="@string/addAddress"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/countriesSpinner"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EFE58B" />
+
+    <Spinner
+        android:id="@+id/citiesSpinner"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EFE58B" />
+
+    <Spinner
+        android:id="@+id/houseNumberSpinner"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#EFE58B" />
+
+    <Button
+        android:id="@+id/showAddress"
+        android:layout_width="301dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:text="@string/showAddress"
+        android:textAlignment="center" />
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#20BD27">
+
+    <Button
+        android:id="@+id/chooseStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/taskStartDay"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/chooseEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/taskFinishDay"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat" />
+    <CalendarView
+        android:id="@+id/startDateCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#DEF129"/>
+    <CalendarView
+        android:id="@+id/endtDateCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D1DF4A"/>
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#A87DF4"
+        android:text="@string/ok" />
+</LinearLayout>
